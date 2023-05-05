@@ -36,6 +36,19 @@ Create your database
   createdb to_do
 ```
 
+Create .env file
+
+```bash
+    touch .env
+```
+
+Generate secret key and add it to your .env file under `SECRET_KEY`
+
+```bash
+  # this will generate a secret key copy and paste it onto your .env file under the variable SECRET_KEY
+  python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+```
+
 Migrate migrations
 
 ```bash
