@@ -128,3 +128,12 @@ Start the server
 | :-------- | :------- | :-------------------------------- |
 | `id` | `int` | **Required**. ID/PK of desired list |
 | `item_id` | `int` | **Required**. ID/PK of desired task |
+
+
+## Using Postman
+
+Download postman [here](https://www.postman.com/downloads/). It has an excellent free tier - do not worry about signing up for anything. [Insomnia](https://insomnia.rest/download) is a popular open-source alternative however postman is still more widely used in the industry and is the tool we will use most in this course. 
+
+Use postman to make http requests to your web app once its running. Depending on the host (localhost vs an ec2 instance) you may have to modify the urls in the example here. You will also want to change the id values used to create new todo lists and items, etc.
+
+Download [this json file with a postman collection for this app](todo-list-django-postman-collection.json). Then in postman go to "File > Import" and then import 
